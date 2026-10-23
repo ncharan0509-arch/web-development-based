@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #263247;
+  background: #f7f7ff;
+}
+
+header {
+  background: #312e81;
+  color: white;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+nav a:hover {
+  color: #c4b5fd;
+}
+
+.hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+}
+
+.tag {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #ddd6fe;
+}
+
+.hero h2 {
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: #fbbf24;
+  color: #312e81;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #fcd34d;
+}
+
+.section {
+  max-width: 1050px;
+  margin: auto;
+  padding: 42px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #312e81;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.course-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  flex: 1 1 230px;
+  max-width: 310px;
+  box-shadow: 0 4px 14px #312e8118;
+  border: 1px solid #e5e7eb;
+}
+
+.course-icon {
+  font-size: 2.4rem;
+  margin-bottom: 8px;
+}
+
+.course-card h3 {
+  color: #4338ca;
+  margin-bottom: 10px;
+}
+
+.teacher {
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
+.level {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.why {
+  background: #ede9fe;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+footer {
+  background: #312e81;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .hero h2 {
+    font-size: 1.7rem;
+  }
+}
